@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
     "title": {
@@ -126,133 +126,6 @@
           "required": [
             "id",
             "coords",
-            "visible",
-            "icon",
-            "background"
-          ]
-        },
-        {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "string"
-            },
-            "coords": {
-              "type": "object",
-              "properties": {
-                "x": {
-                  "type": "number"
-                },
-                "y": {
-                  "type": "number"
-                },
-                "z": {
-                  "type": "number"
-                }
-              },
-              "required": [
-                "x",
-                "y",
-                "z"
-              ]
-            },
-            "visible": {
-              "type": "boolean"
-            },
-            "icon": {
-              "type": "object",
-              "properties": {
-                "type": {
-                  "type": "string"
-                },
-                "value": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "type",
-                "value"
-              ]
-            },
-            "background": {
-              "type": "array",
-              "items": [
-                {
-                  "type": "string"
-                },
-                {
-                  "type": "string"
-                }
-              ]
-            }
-          },
-          "required": [
-            "id",
-            "coords",
-            "visible",
-            "icon",
-            "background"
-          ]
-        },
-        {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "string"
-            },
-            "coords": {
-              "type": "object",
-              "properties": {
-                "x": {
-                  "type": "number"
-                },
-                "y": {
-                  "type": "number"
-                },
-                "z": {
-                  "type": "number"
-                }
-              },
-              "required": [
-                "x",
-                "y",
-                "z"
-              ]
-            },
-            "visible": {
-              "type": "boolean"
-            },
-            "icon": {
-              "type": "object",
-              "properties": {
-                "type": {
-                  "type": "string"
-                },
-                "value": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "type",
-                "value"
-              ]
-            },
-            "background": {
-              "type": "array",
-              "items": [
-                {
-                  "type": "string"
-                },
-                {
-                  "type": "string"
-                }
-              ]
-            }
-          },
-          "required": [
-            "id",
-            "coords",
-            "visible",
             "icon",
             "background"
           ]
@@ -262,7 +135,5 @@
   },
   "required": [
     "title",
-    "attachments",
-    "annotations"
   ]
 }
